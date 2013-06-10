@@ -38,4 +38,28 @@ describe('nodezip', function() {
       this.fs.unlink('test.zip');
     });
   });
+
+  describe('when archiving a read file', function() {
+
+    var fs = require('fs');
+    var path = require('path');
+
+    it('should be able to compress and extract content', function() {
+      var source = fs.readFileSync(path.join(__dirname, 'fixtures', 'toolset.xml'), 'utf8');
+
+      expect(source).toBeTruthy();
+      var zip = new JSZip();
+      zip.file('toolset.xml', source);
+
+      var bytes = zip.generate({base64:false, compression:'DEFLATE'});
+      //extract
+      zip = new JSZip(bytes, {base64: false, checkCRC32: true});
+
+      var file  = zip.file('toolset.xml');
+      expect(file).not.toBeNull();
+
+      var text = file.asText();
+      expect(text).toEqual(source);
+    });
+  });
 });

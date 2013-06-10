@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolSet name="Grunt.js">
+    <tool name="grunt default" description="grunt &quot;default &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="default &gt; %TEMP%cmd_grunt_default_0 &amp; type %TEMP%cmd_grunt_default_0 &amp; del %TEMP%cmd_grunt_default_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt help" description="grunt &quot;help &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="help &gt; %TEMP%cmd_grunt_help_0 &amp; type %TEMP%cmd_grunt_help_0 &amp; del %TEMP%cmd_grunt_help_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt clean" description="grunt &quot;clean &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="clean &gt; %TEMP%cmd_grunt_clean_0 &amp; type %TEMP%cmd_grunt_clean_0 &amp; del %TEMP%cmd_grunt_clean_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt build" description="grunt &quot;build &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="build &gt; %TEMP%cmd_grunt_build_0 &amp; type %TEMP%cmd_grunt_build_0 &amp; del %TEMP%cmd_grunt_build_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt test" description="grunt &quot;test &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="test &gt; %TEMP%cmd_grunt_test_0 &amp; type %TEMP%cmd_grunt_test_0 &amp; del %TEMP%cmd_grunt_test_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt dev" description="grunt &quot;dev &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="dev &gt; %TEMP%cmd_grunt_dev_0 &amp; type %TEMP%cmd_grunt_dev_0 &amp; del %TEMP%cmd_grunt_dev_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt server" description="grunt &quot;server &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="server &gt; %TEMP%cmd_grunt_server_0 &amp; type %TEMP%cmd_grunt_server_0 &amp; del %TEMP%cmd_grunt_server_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt edit_01" description="grunt &quot;edit_01 &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="edit_01 &gt; %TEMP%cmd_grunt_edit_01_0 &amp; type %TEMP%cmd_grunt_edit_01_0 &amp; del %TEMP%cmd_grunt_edit_01_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt edit_02" description="grunt &quot;edit_02 &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="edit_02 &gt; %TEMP%cmd_grunt_edit_02_0 &amp; type %TEMP%cmd_grunt_edit_02_0 &amp; del %TEMP%cmd_grunt_edit_02_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt edit_03" description="grunt &quot;edit_03 &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="edit_03 &gt; %TEMP%cmd_grunt_edit_03_0 &amp; type %TEMP%cmd_grunt_edit_03_0 &amp; del %TEMP%cmd_grunt_edit_03_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt edit_04" description="grunt &quot;edit_04 &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="edit_04 &gt; %TEMP%cmd_grunt_edit_04_0 &amp; type %TEMP%cmd_grunt_edit_04_0 &amp; del %TEMP%cmd_grunt_edit_04_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+    <tool name="grunt edit_05" description="grunt &quot;edit_05 &quot;target" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="grunt.cmd" />
+            <option name="PARAMETERS" value="edit_05 &gt; %TEMP%cmd_grunt_edit_05_0 &amp; type %TEMP%cmd_grunt_edit_05_0 &amp; del %TEMP%cmd_grunt_edit_05_0" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+        </exec>
+        <filter>
+            <option name="NAME" value="basic" />
+            <option name="DESCRIPTION" value="" />
+            <option name="REGEXP" value="[\S \t:]*$FILE_PATH$[\S \t]*(?:$LINE$(?:[:;,\. ]$COLUMN$)?)?.*" />
+        </filter>
+    </tool>
+</toolSet>
